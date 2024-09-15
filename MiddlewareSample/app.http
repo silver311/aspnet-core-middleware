@@ -1,0 +1,28 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+# GET http://localhost:5083/
+# Accept: application/json
+
+###
+
+GET http://localhost:5083/api/auth/public
+
+###
+
+POST http://localhost:5083/api/auth/authenticate
+
+###
+
+POST http://localhost:5083/api/auth/authenticate/admin
+
+###
+
+POST http://localhost:5083/api/auth/logout
+
+###
+
+GET http://localhost:5083/api/auth/secured
+Cookie: SimpleAuthCookie=CfDJ8ClC8zJdiJZPhr-GA-TwOrNptzQ1xzkfssMlN5OQqyY32OR4f18tjkiyVyyUIqFrZPujFG87aO7U1pWXlCsjRMma57npWaiKR6LGHAekaGNeUgz2Vpo-eGo39WTKR4FdYeDRLflmrcdRC1XtBKiWAsh8tt63X8y6F6VAUZrKfy-KVUF7J8uWKkcPHerTJ8kjLE4FOFMZDk3_7qve-akMc1prWeMiosqfTc3yTba4dIk9TDrJafmtvf2JP1RIbTXnCTmk_JZjz6k6hXWrBgBeiRoqCbUAM7l3VSdAiin4T7vZ
+
+###
+GET http://localhost:5083/api/auth/secured/admin
+Cookie: SimpleAuthCookie=CfDJ8ClC8zJdiJZPhr-GA-TwOrNptzQ1xzkfssMlN5OQqyY32OR4f18tjkiyVyyUIqFrZPujFG87aO7U1pWXlCsjRMma57npWaiKR6LGHAekaGNeUgz2Vpo-eGo39WTKR4FdYeDRLflmrcdRC1XtBKiWAsh8tt63X8y6F6VAUZrKfy-KVUF7J8uWKkcPHerTJ8kjLE4FOFMZDk3_7qve-akMc1prWeMiosqfTc3yTba4dIk9TDrJafmtvf2JP1RIbTXnCTmk_JZjz6k6hXWrBgBeiRoqCbUAM7l3VSdAiin4T7vZ
